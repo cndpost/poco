@@ -19,6 +19,12 @@ Instruction to build on Linux
 
 Instruction to build on Windows using Vsual Studio 2017
 
+  create a subfolder cmake_build
+  use cmake-gui to create a VS solution and projects by selecting the poco as src and poco\cmake_build as build folder
+  click config, at end of config, unselect all SQL related modules, then generate
+  open poco.sln and do build. You may need to delete the cmake_build\bin file which prevented the bin folder been created
+
+
 
 
 
