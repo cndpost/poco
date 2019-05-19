@@ -1,6 +1,25 @@
 Copyright (c) 2019 by John Xu. This is a fork of the https://github.com/pocoproject/poco initiated on 5/18/2019.
-Scayl/Moby need the poco-ai version. But this poco version may or may not have incorporated the enhacements in poco-ai
+ur project Scayl/Moby need the poco-ai version. But this poco version may or may not have incorporated the enhancements in poco-ai
 We are migrating Scayl/Moby project to use this forked version of poco
+
+Instruction to build on MaxOS:
+
+  create a subfolder cmake_build
+  use cmake-gui to create a xcode project by selecting the poco as src and poco\cmake_build as build folder
+  click config, at end of config, unselect all SQL related modules, then generate
+  open xcode project and do build
+
+
+Instruction to build on Linux
+
+  /configure --omit=Data/ODBC,Data/MySQL --no-test --no-sample
+  make
+  sudo make install
+
+
+Instruction to build on Windows using Vsual Studio 2017
+
+
 
 
 
