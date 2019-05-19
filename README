@@ -1,3 +1,13 @@
+Copyright (c) 2019 by John Xu. This is a fork of the https://github.com/pocoproject/poco initiated on 5/18/2019.
+Scayl/Moby need the poco-ai version. But this poco version may or may not have incorporated the enhacements in poco-ai
+We are migrating Scayl/Moby project to use this forked version of poco
+
+
+
+
+
+=======Original Readme ===========
+
 This is the README file for the POCO C++ Libraries.
 
 In this document you will find a brief description of the directory layout,
