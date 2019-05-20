@@ -25,7 +25,8 @@ Instruction to build on Windows using Vsual Studio 2017
   open poco.sln and do build. You may need to delete the cmake_build\bin file which prevented the bin folder been created
 
 
-
+  The Debug version will have some _EVP_CIPHER_mode symbols not defined. But release version works fine. Need to further
+  investigate why debug version have those _EVP_Cipher functions not expose in the library.
 
 
 
