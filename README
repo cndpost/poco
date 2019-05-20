@@ -26,9 +26,10 @@ Instruction to build on Windows using Vsual Studio 2017
 
 
   The Debug version will have some _EVP_CIPHER_mode symbols not defined. But release version works fine. Need to further
-  investigate why debug version have those _EVP_Cipher functions not expose in the library.
+  investigate why debug version have those _EVP_Cipher functions not exposed in the library.
 
-
+  Because Crypto debug version's above issue, the NetSSL which depend on above module also failed at link time. But
+  NetSSLWin do not suffer this problem. 
 
 
 
